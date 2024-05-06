@@ -5,12 +5,12 @@ public class Main {
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
         // рублей для одной бонусной мили
-        int Ticketprice = 13_676;
-        int Onebonus = 20;
-        int BonusTotal = Ticketprice / Onebonus;
+        int ticketprice = 13_676;
+        int onebonus = 20;
+        int bonusTotal = ticketprice / onebonus;
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
-        System.out.println("Итого за данный перелет было начислено " + BonusTotal + " бонусов");
+        System.out.println("Итого за данный перелет было начислено " + bonusTotal + " бонусов");
     }
 }
