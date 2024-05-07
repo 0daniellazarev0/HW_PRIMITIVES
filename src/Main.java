@@ -5,9 +5,9 @@ public class Main {
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
         // рублей для одной бонусной мили
-        int ticketprice = 13_676;
-        int onebonus = 20;
-        int bonusTotal = ticketprice / onebonus;
+        int ticketPrice = 13_676;
+        int oneBonus = 20;
+        int bonusTotal = ticketPrice / oneBonus;
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных. Ответ сохраняете в
         // новую переменную и выводите на экран
